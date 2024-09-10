@@ -3,12 +3,12 @@ import {Route, Routes} from "react-router-dom"
 
 import CreatePgae from "./pages/CreatePgae"
 import HomePage from "./pages/HomePage"
-import NavBar from "./components/NavBar"
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <Box minH={"100vh"} bg={useColorModeValue("gray.100", "gray.900")}>
-    <NavBar />
+    <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePgae />} />

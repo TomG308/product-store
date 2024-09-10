@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { IoMoon } from 'react-icons/io5'
 import { LuSun } from 'react-icons/lu'
 
-const NavBar = () => {
+const Navbar = () => {
 
   const { colorMode, toggleColorMode } = useColorMode()
 
@@ -48,4 +48,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default Navbar
